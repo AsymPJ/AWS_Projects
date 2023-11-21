@@ -1,0 +1,26 @@
+## Explanation
+Typical public cloud environment hosted on Amazon Web Services (AWS). The cloud environment is divided into several layers, each responsible for storing and retrieving data.
+
+### Top Layer
+The top layer, also known as the presentation layer, is responsible for interacting with users and providing them with access to the cloud environment. This layer typically includes web servers, application servers, and load balancers.
+
+### Middle Layer
+
+The middle layer, also known as the application layer, is responsible for processing user requests and generating responses. This layer typically includes application servers, databases, and caching servers.
+
+### Bottom Layer
+
+The bottom layer, also known as the infrastructure layer, is responsible for providing the underlying resources that support the application layer. This layer typically includes compute resources, storage resources, and networking resources.
+
+### AWS Components
+
+The AWS architecture diagram you provided shows several AWS components, including:
+
+- Amazon Virtual Private Cloud (VPC): A VPC is a logically isolated section of the AWS cloud where you can launch AWS resources in a private network.
+Internet Gateway: An internet gateway allows traffic to flow between your VPC and the internet.
+- NAT Gateway: A NAT gateway allows instances in a private subnet to access the internet without exposing their public IP addresses.
+- Security Group: A security group is a firewall that controls inbound and outbound traffic to your instances.
+- Transit Gateway: A transit gateway is a central hub that connects your VPCs and to AWS services.
+- Route 53: Route 53 is a domain name system (DNS) service that directs traffic to your AWS resources.
+
+The main purpose of this infrastructure is to provide a cloud environment where I take into account the well-architected pillars of AWS. In this configuration, I deploy a network infrastructure with a Site-to-site connection for remote access and a share and available storage with a specific limit due to user needs.
